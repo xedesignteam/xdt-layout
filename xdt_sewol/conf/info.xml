@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="0.2">
-    <title xml:lang="ko">XE Design Team 세월호 추모 레이아웃</title>
-    <title xml:lang="en">XE Design Team the Sewol memorial Layout</title>
+    <title xml:lang="ko">XE Design Team - 세월호 추모 레이아웃</title>
+    <title xml:lang="en">XE Design Team - the Sewol memorial Layout</title>
     <description xml:lang="ko">세월호 추모 레이아웃 입니다...</description>
 	<description xml:lang="en">Layout for the Sewol memorial</description>
     <version>1.1</version>

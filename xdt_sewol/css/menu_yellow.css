@@ -1,0 +1,28 @@
+/*haeder menu*/
+.header { background:url(../img/yellow-bg.png) repeat-x;}
+.header .header_logo { background:url(../img/yellow.png); }
+.header .header_logo .logo { margin-left:100px; }
+
+/*haeder login*/
+.header .header_login .top_login .login { margin-top:24px; color:#000002; }
+.header .header_login .top_login .login li a { color:#000002; }
+.header .header_login .top_login .login li button { color:#000002; }
+
+/*haeder menu*/
+.header .header_menu { background:#5A432E; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li>a { color:#FAFAFA; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li>a:hover { color:#B8E0FF; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li.active>a {  background:#3A3026; color:#FFFFFF; }
+
+.header .header_menu .menu #gnb_menu .sub>li>a { color:#FFFFFF; }
+/*sub page*/
+.xdt_page2 .xdt_sub .xdt_sub_top { border-bottom: 2px solid #5A432E; }
+
+/*banner*/
+.doc_banner { background:#D6CCC3; }
+
+/*footer*/
+.footer { background:#837263; }
+.footer .footer_content { color:#D6D6D6; }
+.footer .footer_content .menu a { color:#D6D6D6; }
+.footer .footer_content .menu li.active a { color:#FFFFFF; }

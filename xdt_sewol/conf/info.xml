@@ -4,8 +4,8 @@
     <title xml:lang="en">XE Design Team the Sewol memorial Layout</title>
     <description xml:lang="ko">세월호 추모 레이아웃 입니다...</description>
 	<description xml:lang="en">Layout for the Sewol memorial</description>
-    <version>1.0</version>
-    <date>2014-04-19</date>
+    <version>1.1</version>
+    <date>2014-05-04</date>
 
     <author email_address="support@xdt.kr" link="http://xdt.kr">
         <name xml:lang="ko">범진혁</name>
@@ -32,6 +32,18 @@
 			<options value="sub">
 				<title xml:lang="ko">2단 서브페이지</title>
 				<value>sub</value>
+			</options>
+		</var>
+		<var name="menu_color" type="select">
+			<title xml:lang="ko">헤더 배경</title>
+			<description xml:lang="ko">헤더 배경을 선택하세요.</description>
+			<options value="blue">
+				<title xml:lang="ko">세월호 배경</title>
+				<value>blue</value>
+				</options>	
+			<options value="yellow">
+				<title xml:lang="ko">노란리본 배경</title>
+				<value>yellow</value>
 			</options>
 		</var>
 		<var name="header_logo_image" type="image">

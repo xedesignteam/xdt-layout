@@ -1,0 +1,25 @@
+/*haeder menu*/
+.header { background:url(../img/sewol-bg.png) repeat-x;}
+.header .header_logo { background:url(../img/sewol.png); }
+
+/*haeder login*/
+.header .header_login .top_login .login { margin-top:24px; color:#fff; }
+.header .header_login .top_login .login li a { color:#fff; }
+.header .header_login .top_login .login li button { color:#fff; }
+
+/*haeder menu*/
+.header .header_menu { background:#334875; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li>a { color:#fafafa; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li>a:hover { color:#B8E0FF; }
+.header .header_menu .menu #gnb_menu .gnb_ul>li.active>a {  background:#25345C; color:#B8E0FF; }
+.header .header_menu .menu #gnb_menu .sub>li>a { color:#fff; }
+
+/*sub page*/
+.xdt_page2 .xdt_sub .xdt_sub_top { border-bottom: 2px solid #334875; }
+
+/*banner*/
+.doc_banner { background:#EFF3F8; }
+
+/*footer*/
+.footer { background:#EFF3F8; }
+.footer .footer_content { color:#606060; }

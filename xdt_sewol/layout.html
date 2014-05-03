@@ -1,5 +1,10 @@
 <!--%import("css/layout.css")--> 
 <!--%import("js/layout.js")-->
+<!--@if($layout_info->menu_color=="blue")-->
+<!--%import("css/menu_blue.css")--> 
+<!--@elseif($layout_info->menu_color=="yellow")-->
+<!--%import("css/menu_yellow.css")--> 
+<!--@end-->
 <!--@if($layout_info->banner_style=="y")-->
 <!--%import("js/slides.js")-->
 <!--%import("js/banner.js")-->
@@ -30,8 +35,10 @@
 			<!--@end-->
 			<!--@if($layout_info->header_logo_image)-->
 				<img src="{$layout_info->header_logo_image}" alt="{$layout_info->header_logo_url}" class="iePngFix" /></a>
+			<!--@elseif($layout_info->menu_color=="yellow")-->
+				<img src="img/yellow_nologo.png" class="iePngFix" /></a>
 			<!--@else-->
-				<img src="img/nologo.png" class="iePngFix" /></a>
+				<img src="img/blue_nologo.png" class="iePngFix" /></a>
 			<!--@end-->
 		</div>
 	</div>

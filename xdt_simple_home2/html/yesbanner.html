@@ -1,0 +1,147 @@
+<!--@if($layout_info->banner_style=="y")-->
+    <div id="xdtbanner" class="xdtslider">
+       <ul>
+          <li>
+             <img src="{$layout_info->banner_image_1}" />
+             <!--@if($layout_info->banner_ctext1=="y")-->
+             <div class="slide-desc">
+		        <h2>{$layout_info->banner_ttext1}</h2>
+		        <p>{$layout_info->banner_text1}</p>
+             </div>
+             <!--@end-->
+          </li>
+          <li>
+			 <img src="{$layout_info->banner_image_2}" />
+			 <!--@if($layout_info->banner_ctext2=="y")-->
+             <div class="slide-desc">
+		        <h2>{$layout_info->banner_ttext2}</h2>
+		        <p>{$layout_info->banner_text2}</p>
+             </div>
+             <!--@end-->
+          </li>
+          <li>
+		     <img src="{$layout_info->banner_image_3}" />
+			 <!--@if($layout_info->banner_ctext3=="y")-->
+             <div class="slide-desc">
+		        <h2>{$layout_info->banner_ttext3}</h2>
+		        <p>{$layout_info->banner_text3}</p>
+             </div>
+             <!--@end-->
+          </li>
+          <li>
+		     <img src="{$layout_info->banner_image_4}" />
+			 <!--@if($layout_info->banner_ctext4=="y")-->
+             <div class="slide-desc">
+		        <h2>{$layout_info->banner_ttext4}</h2>
+		        <p>{$layout_info->banner_text4}</p>
+             </div>
+             <!--@end-->
+          </li>
+	   </ul>
+    </div>
+	<!--@end-->
+<div id="doc">
+	<!--@if($layout_info->body_style=="sub")-->
+	<!--@if($layout_info->page_style=="a")-->
+		<div class="xdt_page2a">
+		<div class="xdt_sub">
+			<div loop="$main_menu->list=>$key1,$val1" class="xdt_sub_top" cond="$val1['selected']">
+				<a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>
+			</div>
+			<ul class="locNav" loop="$main_menu->list=>$key1,$val1" cond="$val1['selected'] && $val1['list']">
+				<li loop="$val1['list']=>$key2,$val2" class="active"|cond="$val2['selected']"><a href="{$val2['href']}" target="_blank"|cond="$val2['open_window']=='Y'">{$val2['link']}</a>
+					<ul cond="$val2['list']">
+						<li loop="$val2['list']=>$key3,$val3" class="active"|cond="$val3['selected']"><a href="{$val3['href']}" target="_blank"|cond="$val3['open_window']=='Y'">{$val3['link']}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="page2">
+		{$content}
+		</div>
+	</div>
+	<!--@elseif($layout_info->page_style=="b")-->
+		<div class="xdt_page2b">
+		<div class="xdt_sub">
+			<div loop="$main_menu->list=>$key1,$val1" class="xdt_sub_top" cond="$val1['selected']">
+				<a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>
+			</div>
+			<ul class="locNav" loop="$main_menu->list=>$key1,$val1" cond="$val1['selected'] && $val1['list']">
+				<li loop="$val1['list']=>$key2,$val2" class="active"|cond="$val2['selected']"><a href="{$val2['href']}" target="_blank"|cond="$val2['open_window']=='Y'">{$val2['link']}</a>
+					<ul cond="$val2['list']">
+						<li loop="$val2['list']=>$key3,$val3" class="active"|cond="$val3['selected']"><a href="{$val3['href']}" target="_blank"|cond="$val3['open_window']=='Y'">{$val3['link']}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="page2">
+		{$content}
+		</div>
+	</div>
+	<!--@elseif($layout_info->page_style=="c")-->
+		<div class="xdt_page2c">
+		<div class="xdt_sub">
+			<div loop="$main_menu->list=>$key1,$val1" class="xdt_sub_top" cond="$val1['selected']">
+				<a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>
+			</div>
+			<ul class="locNav" loop="$main_menu->list=>$key1,$val1" cond="$val1['selected'] && $val1['list']">
+				<li loop="$val1['list']=>$key2,$val2" class="active"|cond="$val2['selected']"><a href="{$val2['href']}" target="_blank"|cond="$val2['open_window']=='Y'">{$val2['link']}</a>
+					<ul cond="$val2['list']">
+						<li loop="$val2['list']=>$key3,$val3" class="active"|cond="$val3['selected']"><a href="{$val3['href']}" target="_blank"|cond="$val3['open_window']=='Y'">{$val3['link']}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="page2">
+		{$content}
+		</div>
+	</div>
+	<!--@elseif($layout_info->page_style=="d")-->
+		<div class="xdt_page2d">
+		<div class="xdt_sub">
+			<div loop="$main_menu->list=>$key1,$val1" class="xdt_sub_top" cond="$val1['selected']">
+				<a href="{$val1['href']}" target="_blank"|cond="$val1['open_window']=='Y'">{$val1['link']}</a>
+			</div>
+			<ul class="locNav" loop="$main_menu->list=>$key1,$val1" cond="$val1['selected'] && $val1['list']">
+				<li loop="$val1['list']=>$key2,$val2" class="active"|cond="$val2['selected']"><a href="{$val2['href']}" target="_blank"|cond="$val2['open_window']=='Y'">{$val2['link']}</a>
+					<ul cond="$val2['list']">
+						<li loop="$val2['list']=>$key3,$val3" class="active"|cond="$val3['selected']"><a href="{$val3['href']}" target="_blank"|cond="$val3['open_window']=='Y'">{$val3['link']}</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="page2">
+		{$content}
+		</div>
+	</div>
+	<!--@end-->
+    <!--@elseif($layout_info->body_style=="main")-->
+	<div class="xdt_page">
+	<!--@if($layout_info->page_style=="a")-->
+		<div class="articlea">
+			<div class="content">
+				{$content}
+			</div>
+		</div>
+	<!--@elseif($layout_info->page_style=="b")-->
+		<div class="articleb">
+			<div class="content">
+				{$content}
+			</div>
+		</div>
+	<!--@elseif($layout_info->page_style=="c")-->
+		<div class="articlec">
+			<div class="content">
+				{$content}
+			</div>
+		</div>
+	<!--@elseif($layout_info->page_style=="d")-->
+		<div class="articled">
+			<div class="content">
+				{$content}
+			</div>
+		</div>
+	<!--@end-->
+	</div>
+	<!--@end-->
+</div>

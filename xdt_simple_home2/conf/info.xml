@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="0.2">
-    <title xml:lang="ko">XDT Simple Home 2</title>
-    <title xml:lang="en">XDT Simple Home 2</title>
+    <title xml:lang="ko">XE Design Team - Simple Home 2</title>
+    <title xml:lang="en">XE Design Team - Simple Home 2</title>
     <description xml:lang="ko">심플한 분위기를 가진 가벼운 레이아웃입니다.</description>
-    <version>1.0</version>
-    <date>2013-12-30</date>
+    <version>1.0.1</version>
+    <date>2014-05-05</date>
 
-    <author email_address="xdtask@gmail.com" link="http://xdt.kr">
+    <author email_address="support@xdt.kr" link="http://www.xedesignteam.com">
         <name xml:lang="ko">범진혁</name>
 		<name xml:lang="en">Beom Jinhyeok</name>
     </author>

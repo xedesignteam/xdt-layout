@@ -56,7 +56,7 @@
 }
 .xdtslider .slide-desc > h2 {
     color: #CFDB0C;
-    font-family: 'Oswald';
+    font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -65,7 +65,7 @@
 
 .xdtslider .slide-desc > p {
     color: #FFFFFF;
-    font-family: 'Oswald';
+    font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
     font-size: 16px;
     line-height: 20px;
     margin-top: 5px;

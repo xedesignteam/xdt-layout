@@ -2,7 +2,7 @@
 body,p,ul,li,h3{ margin:0; padding:0; }
 html{ margin:0; }
 
-body{ font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+body{ font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
 a{ text-decoration:none; color:#404040; }
 
 /*header*/
@@ -27,10 +27,10 @@ a{ text-decoration:none; color:#404040; }
 .header .header_menu .menu #gnb_menu .sub { display:none; position:absolute; top:56px; left:65%; min-width:90px; background:url('./../img/blackglass.png'); z-index:10; text-align:center; padding-bottom:10px; }
 .header .header_menu .menu #gnb_menu .sub>li { height:20px; line-height:20px; padding: 1px 15px 0 15px; }
 .header .header_menu .menu #gnb_menu .sub>li>a { color:#fff; }
-.header .header_menu .menu .uparrow {width:0; height:0; border-left:9px solid transparent; border-right:9px solid transparent; border-bottom:9px solid #838383; margin:-9px auto 0 auto; margin-bottom:7px; }
+.header .header_menu .menu .uparrow { width:0; height:0; border-left:9px solid transparent; border-right:9px solid transparent; border-bottom:9px solid #838383; margin:-9px auto 0 auto; margin-bottom:7px; }
 
 /*main page*/
-#doc{width:1000px; margin:0 auto;}
+#doc{ width:1000px; margin:0 auto; }
 .xdt_page { width:100px; float:left; margin:10px 0 15px 0; }
 .xdt_page  .articlea { width:1000px; float:left; }
 .xdt_page  .articleb { width:980px; float:left; padding:0 10px 10px 10px; }
@@ -39,88 +39,88 @@ a{ text-decoration:none; color:#404040; }
 
 /*sub page*/
 .xdt_page2a { width:1000px; float:left; margin-bottom:15px; }
-.xdt_page2a .xdt_sub { width:210px; margin:0 0 0 0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
-.xdt_page2a .xdt_sub li { list-style:none;  margin:0 0 0 0; padding:10px 0 0 0 ; width:200px;}
-.xdt_page2a .xdt_sub li ul { list-style:none;  padding:0; width:200px; overflow:hidden;height:30px;  text-align:left; }
-.xdt_page2a .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0px 0 0 0px; }
+.xdt_page2a .xdt_sub { width:210px; margin:0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
+.xdt_page2a .xdt_sub li { list-style:none; margin:0; padding:10px 0 0 0; width:200px; }
+.xdt_page2a .xdt_sub li ul { list-style:none; padding:0; width:200px; overflow:hidden;height:30px; text-align:left; }
+.xdt_page2a .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0; }
 .xdt_page2a .xdt_sub li ul a:hover { color:#2879ff; }
-.xdt_page2a .xdt_sub li ul.active a { color:#333; font-weight:bold;}
-.xdt_page2a .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid #000; }
-.xdt_page2a .xdt_sub .locNav .active a { color:#333; font-weight:bold;}
-.xdt_page2a .page2 { width: 770px; float:left; }
+.xdt_page2a .xdt_sub li ul.active a { color:#333; font-weight:bold; }
+.xdt_page2a .xdt_sub .xdt_sub_top { font-size:20px; font-weight: bold; padding-bottom:5px; border-bottom:2px solid #000; }
+.xdt_page2a .xdt_sub .locNav .active a { color:#333; font-weight:bold; }
+.xdt_page2a .page2 { width:770px; float:left; }
 
 .xdt_page2b { width:1000px; float:left; margin-bottom:15px; }
-.xdt_page2b .xdt_sub { width:210px; margin:0 0 0 0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
-.xdt_page2b .xdt_sub li { list-style:none;  margin:0 0 0 0; padding:10px 0 0 0 ; width:200px;}
-.xdt_page2b .xdt_sub li ul { list-style:none;  padding:0; width:200px; overflow:hidden;height:30px;  text-align:left; }
-.xdt_page2b .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0px 0 0 0px; }
+.xdt_page2b .xdt_sub { width:210px; margin:0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
+.xdt_page2b .xdt_sub li { list-style:none; margin:0; padding:10px 0 0 0; width:200px; }
+.xdt_page2b .xdt_sub li ul { list-style:none; padding:0; width:200px; overflow:hidden;height:30px; text-align:left; }
+.xdt_page2b .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0; }
 .xdt_page2b .xdt_sub li ul a:hover { color:#2879ff; }
-.xdt_page2b .xdt_sub li ul.active a { color:#333; font-weight:bold;}
-.xdt_page2b .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid #000; }
-.xdt_page2b .xdt_sub .locNav .active a { color:#333; font-weight:bold;}
-.xdt_page2b .page2 { width: 760px; margin:10px 10px 10px 0px; float:left; }
+.xdt_page2b .xdt_sub li ul.active a { color:#333; font-weight:bold; }
+.xdt_page2b .xdt_sub .xdt_sub_top { font-size:20px; font-weight: bold; padding-bottom:5px; border-bottom:2px solid #000; }
+.xdt_page2b .xdt_sub .locNav .active a { color:#333; font-weight:bold; }
+.xdt_page2b .page2 { width:760px; margin:10px 10px 10px 0px; float:left; }
 
 .xdt_page2c { width:998px; float:left; background-color:#fff; border:1px solid #ccc; border-radius:0 0 5px 5px; margin-bottom:15px; }
-.xdt_page2c .xdt_sub { width:210px; margin:0 0 0 0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
-.xdt_page2c .xdt_sub li { list-style:none;  margin:0 0 0 0; padding:10px 0 0 0 ; width:200px;}
-.xdt_page2c .xdt_sub li ul { list-style:none;  padding:0; width:200px; overflow:hidden;height:30px;  text-align:left; }
-.xdt_page2c .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0px 0 0 0px; }
+.xdt_page2c .xdt_sub { width:210px; margin:0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
+.xdt_page2c .xdt_sub li { list-style:none; margin:0; padding:10px 0 0 0; width:200px; }
+.xdt_page2c .xdt_sub li ul { list-style:none; padding:0; width:200px; overflow:hidden;height:30px; text-align:left; }
+.xdt_page2c .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0; }
 .xdt_page2c .xdt_sub li ul a:hover { color:#2879ff; }
-.xdt_page2c .xdt_sub li ul.active a { color:#333; font-weight:bold;}
-.xdt_page2c .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid #000; }
-.xdt_page2c .xdt_sub .locNav .active a { color:#333; font-weight:bold;}
-.xdt_page2c .page2 { width: 768px; float:left; }
+.xdt_page2c .xdt_sub li ul.active a { color:#333; font-weight:bold; }
+.xdt_page2c .xdt_sub .xdt_sub_top { font-size:20px; font-weight: bold; padding-bottom:5px; border-bottom:2px solid #000; }
+.xdt_page2c .xdt_sub .locNav .active a { color:#333; font-weight:bold; }
+.xdt_page2c .page2 { width:768px; float:left; }
 
 .xdt_page2d { width:998px; float:left; background-color:#fff; border:1px solid #ccc; border-radius:0 0 5px 5px; margin-bottom:15px; }
-.xdt_page2d .xdt_sub { width:210px; margin:0 0 0 0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
-.xdt_page2d .xdt_sub li { list-style:none;  margin:0 0 0 0; padding:10px 0 0 0 ; width:200px;}
-.xdt_page2d .xdt_sub li ul { list-style:none;  padding:0; width:200px; overflow:hidden;height:30px;  text-align:left; }
-.xdt_page2d .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0px 0 0 0px; }
+.xdt_page2d .xdt_sub { width:210px; margin:0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; background-color:#fff; }
+.xdt_page2d .xdt_sub li { list-style:none; margin:0; padding:10px 0 0 0; width:200px; }
+.xdt_page2d .xdt_sub li ul { list-style:none; padding:0; width:200px; overflow:hidden;height:30px; text-align:left; }
+.xdt_page2d .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0; }
 .xdt_page2d .xdt_sub li ul a:hover { color:#2879ff; }
-.xdt_page2d .xdt_sub li ul.active a { color:#333; font-weight:bold;}
-.xdt_page2d .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid #000; }
-.xdt_page2d .xdt_sub .locNav .active a { color:#333; font-weight:bold;}
-.xdt_page2d .page2 { width: 758px; margin:10px 10px 10px 0px; float:left; }
+.xdt_page2d .xdt_sub li ul.active a { color:#333; font-weight:bold; }
+.xdt_page2d .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom:2px solid #000; }
+.xdt_page2d .xdt_sub .locNav .active a { color:#333; font-weight:bold; }
+.xdt_page2d .page2 { width:758px; margin:10px 10px 10px 0px; float:left; }
 
 /*footer*/
 .footer { width:100%; background:#f7f7f7; height:100px; clear:both; }
-.footer .footer_content { width:1000px; padding:10px 0 20px 0; margin:0 auto; font-size:11px; color:#606060;}
+.footer .footer_content { width:1000px; padding:10px 0 20px 0; margin:0 auto; font-size:11px; color:#606060; }
 .footer .footer_content .menu { float:right; margin:10px 0 0 0; }
 .footer .footer_content .menu li { list-style-type:none; padding:0 0 0 15px; float:left; }
 .footer .footer_content .menu li:first-child { border:0; }
 .footer .footer_content .menu li a:hover { text-decoration:underline; }
-.footer .footer_content .copy { float:left; margin:10px 0 30px 0; text-align:left;}
+.footer .footer_content .copy { float:left; margin:10px 0 30px 0; text-align:left; }
 
 /* Popup Login */
-.loginWindow{ display:none; position:fixed; left:0; top:0; _position:absolute; width:100%; height:100%; z-index:100;} 
-.loginWindow.open{ display:block;}
-.loginWindow .modalWindow{ display:block; position:fixed; border:0; left:0; top:0; _position:absolute; width:100%; height:100%; background:#000; opacity:.3; filter:alpha(opacity:30);}
-.loginWindow .loginLayer form{ display:none; *zoom:1; margin:0;}
-.loginWindow .loginLayer form:after{ content:""; display:block; clear:both;}
-.loginWindow .loginLayer form legend{ position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden;}
-.loginWindow .loginLayer fieldset{ border:0; margin:0; padding:0;}
+.loginWindow{ display:none; position:fixed; left:0; top:0; _position:absolute; width:100%; height:100%; z-index:100; } 
+.loginWindow.open{ display:block; }
+.loginWindow .modalWindow{ display:block; position:fixed; border:0; left:0; top:0; _position:absolute; width:100%; height:100%; background:#000; opacity:.3; filter:alpha(opacity:30); }
+.loginWindow .loginLayer form{ display:none; *zoom:1; margin:0; }
+.loginWindow .loginLayer form:after{ content:""; display:block; clear:both; }
+.loginWindow .loginLayer form legend{ position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden; }
+.loginWindow .loginLayer fieldset{ border:0; margin:0; padding:0; }
 .loginWindow .loginLayer.loginTypeA form.typeA,
-.loginWindow .loginLayer.loginTypeB form.typeB{ display:block; margin-bottom:25px;}
-.loginWindow .loginLayer dl{ margin:0; padding: 30px 40px 0 40px;}
-.loginWindow .loginLayer dt{ font-size:13px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-weight:bold; color:#868d95; margin:0 0 10px 0;}
-.loginWindow .loginLayer dd{ margin:0 0 15px 0;}
-.loginWindow .loginLayer .inputuid{ width:320px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; color:#333;}
-.loginWindow .loginLayer .inputuid:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
-.loginWindow .loginLayer .inputupw{ width:175px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; color:#333;}
-.loginWindow .loginLayer .inputupw:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
-.loginWindow .loginLayer .inputCheck{ margin:0 3px 0 0; width:13px; height:13px; vertical-align:middle;}
-.loginWindow .loginLayer.loginTypeA .inputText{ background-image:url(../img/bgLoginText.gif)undefined; background-repeat:no-repeat; background-position:right top;}
-.loginWindow .loginLayer.loginTypeB .inputText{ background-image:url(../img/bgOpenidText.gif)undefined; background-repeat:no-repeat; background-position:right top; padding:6px 9px 0 35px; width:243px;}
-.loginWindow .loginLayer .keep{ margin:0; float:left; font-size:11px; line-height:normal; white-space:nowrap; margin-left: 40px;}
-.loginWindow .loginLayer .keep label{ color:#555; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+.loginWindow .loginLayer.loginTypeB form.typeB{ display:block; margin-bottom:25px; }
+.loginWindow .loginLayer dl{ margin:0; padding:30px 40px 0 40px; }
+.loginWindow .loginLayer dt{ font-size:13px; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; font-weight:bold; color:#868d95; margin:0 0 10px 0; }
+.loginWindow .loginLayer dd{ margin:0 0 15px 0; }
+.loginWindow .loginLayer .inputuid{ width:320px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; color:#333; }
+.loginWindow .loginLayer .inputuid:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff; }
+.loginWindow .loginLayer .inputupw{ width:175px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; color:#333; }
+.loginWindow .loginLayer .inputupw:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff; }
+.loginWindow .loginLayer .inputCheck{ margin:0 3px 0 0; width:13px; height:13px; vertical-align:middle; }
+.loginWindow .loginLayer.loginTypeA .inputText{ background-image:url(../img/bgLoginText.gif)undefined; background-repeat:no-repeat; background-position:right top; }
+.loginWindow .loginLayer.loginTypeB .inputText{ background-image:url(../img/bgOpenidText.gif)undefined; background-repeat:no-repeat; background-position:right top; padding:6px 9px 0 35px; width:243px; }
+.loginWindow .loginLayer .keep{ margin:0; float:left; font-size:11px; line-height:normal; white-space:nowrap; margin-left: 40px; }
+.loginWindow .loginLayer .keep label{ color:#555; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; }
 .loginWindow .loginLayer .loginButton,
-.loginWindow .loginLayer .loginButton input{ position:relative; border:0; color:#fff; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-size:12px; font-weight:bold; border-radius:5px; display:inline-block; height:48px; line-height:48px; background-color:#424549; overflow:hidden;}
-.loginWindow .loginLayer .loginButton{ width:130px; float:right; background-position:0 0;}
-.loginWindow .loginLayer .loginButton input{ left:11px; background-position:right 0; padding:0 35px 0 35px; cursor:pointer;}
-.loginWindow .loginLayer .close{ position:absolute; cursor:pointer; border:0; padding:0; top:10px; right:10px; width:27px; height:27px; background:transparent url(../img/close.png) no-repeat center -20px;}
-.loginWindow .loginLayer .help { width:100%; height:43px; background:#F0F0F0;}
-.loginWindow .loginLayer .help li { list-style-type:none; float:left; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:14px 5px 5px 0; padding:0 6px 0 0; }
-.loginWindow .loginLayer .help p { float:left; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:14px 0 0 0; padding: 0 6px 0 0; color:#404040; }
-.loginWindow .loginLayer .close span{ position:absolute; font-size:0; line-height:0; width:0; height:.; overflow:hidden; visibility:hidden;}
+.loginWindow .loginLayer .loginButton input{ position:relative; border:0; color:#fff; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; font-size:12px; font-weight:bold; border-radius:5px; display:inline-block; height:48px; line-height:48px; background-color:#424549; overflow:hidden; }
+.loginWindow .loginLayer .loginButton{ width:130px; float:right; background-position:0 0; }
+.loginWindow .loginLayer .loginButton input{ left:11px; background-position:right 0; padding:0 35px 0 35px; cursor:pointer; }
+.loginWindow .loginLayer .close{ position:absolute; cursor:pointer; border:0; padding:0; top:10px; right:10px; width:27px; height:27px; background:transparent url(../img/close.png) no-repeat center -20px; }
+.loginWindow .loginLayer .help { width:100%; height:43px; background:#F0F0F0; }
+.loginWindow .loginLayer .help li { list-style-type:none; float:left; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; margin:14px 5px 5px 0; padding:0 6px 0 0; }
+.loginWindow .loginLayer .help p { float:left; font-family:'Nanum Gothic','나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif; margin:14px 0 0 0; padding: 0 6px 0 0; color:#404040; }
+.loginWindow .loginLayer .close span{ position:absolute; font-size:0; line-height:0; width:0; height:.; overflow:hidden; visibility:hidden; }
 
-.loginWindow .loginLayer{ position:absolute; width:425px; top:20%; left:50%; border:2px solid #797979; margin:0 0 0 -220px; background:#fff;}
+.loginWindow .loginLayer{ position:absolute; width:425px; top:20%; left:50%; border:2px solid #797979; margin:0 0 0 -220px; background:#fff; }

@@ -59,7 +59,7 @@
 		}
 		
 		//if (touch)
-		//$.xdtslider.enableTouch(element,slides, config);
+		$.xdtslider.enableTouch(element,slides, config);
 	   
 	    $.xdtslider.createNav(element,slides, config);
 	    slides.eq(targetSlide).show();
@@ -234,7 +234,7 @@
 			}), config.delay);
 	  }
   };
-  /*
+  
   $.xdtslider.enableTouch=function(element,slides,config){
 	  element[0].addEventListener('touchstart', onTouchStart, false);
 	   var startX;
@@ -267,7 +267,6 @@
 	    		 element[0].removeEventListener('touchend', onTouchEnd, false);
     	 }	
   }
-  */
   
   $.xdtslider.removeIEFilter=function(elm){
 	  if(elm.style.removeAttribute){

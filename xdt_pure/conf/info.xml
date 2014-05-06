@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.2">
+    <title xml:lang="ko">XDT Pure</title>
+    <description xml:lang="ko">깔끔한 디자인의 레이아웃 스킨입니다.</description>
+    <version>1.3</version>
+    <date>2013-10-27</date>
+
+    <author email_address="support@xdt.kr" link="http://www.xedesignteam.com/">
+        <name xml:lang="ko">범진혁</name>
+    </author>
+    <menus>
+		<menu name="main_menu" maxdepth="1" default="true">
+            <title xml:lang="ko">메뉴</title>
+			<title xml:lang="en">menu</title>
+        </menu>
+		<menu name="footer_menu" maxdepth="1" default="true">
+            <title xml:lang="ko">하단 메뉴</title>
+			<title xml:lang="en">footer menu</title>
+        </menu>
+    </menus>
+	<extra_vars>
+		<var name="header_logo_image" type="image">
+			<title xml:lang="ko">헤더 로고 이미지</title>
+			<description xml:lang="ko">헤더에 출력될 로고 이미지입니다. 가로 160px, 세로 35px를 권장합니다.</description>
+		</var>
+		<var name="header_logo_url" type="text">
+			<title xml:lang="ko">헤더 로고 주소</title>
+			<description xml:lang="ko">이미지 로고를 클릭하면 이동될 주소입니다.</description>
+		</var>
+        <var name="body_style" type="select">
+            <title xml:lang="ko">본문 스타일</title>
+            <description xml:lang="ko">본문 스타일을 선택하세요.</description>
+            <options value="B">
+                <title xml:lang="ko">1단 스타일</title>
+                <value>B</value>
+            </options>
+			<options value="A">
+                <title xml:lang="ko">2단 스타일</title>
+                <value>A</value>
+            </options>
+			</var>
+		<var name="footer_copy" type="text">
+			<title xml:lang="ko">하단 저작권</title>
+			<description xml:lang="ko">하단에 들어갈 저작권을 입력해 주세요.</description>
+		</var>
+		<var name="aside_ads" type="textarea">
+			<title xml:lang="ko">사이드 바 광고(2단 스타일에만 해당됩니다.)</title>
+			<description xml:lang="ko">사이드바에 들어갈 광고 코드를 입력하세요.</description>
+		</var>
+		<var name="widget_a_title" type="text">
+			<title xml:lang="ko">위젯 1 타이틀(2단 스타일에만 해당됩니다.)</title>
+			<description xml:lang="ko">사이드바에 표시되는 위젯 1 제목을 넣으세요.</description>
+		</var>
+		<var name="widget_a" type="textarea">
+			<title xml:lang="ko">위젯 1 스크립트(2단 스타일에만 해당됩니다.)</title>
+			<description xml:lang="ko">위젯 1 에 넣을 위젯 코드를 입력하세요.</description>
+		</var>
+		<var name="widget_b_title" type="text">
+			<title xml:lang="ko">위젯 2 타이틀(2단 스타일에만 해당됩니다.)</title>
+			<description xml:lang="ko">사이드바에 표시되는 위젯 2 제목을 넣으세요.</description>
+		</var>
+		<var name="widget_b" type="textarea">
+			<title xml:lang="ko">위젯 2 스크립트(2단 스타일에만 해당됩니다.)</title>
+			<description xml:lang="ko">위젯 2 에 넣을 위젯 코드를 입력하세요.</description>
+		</var>
+	</extra_vars>
+</layout>

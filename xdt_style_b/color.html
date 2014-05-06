@@ -1,0 +1,39 @@
+<!--@if($layout_info->menu_bar_color=="n")-->
+<!--%import("css/color.css")-->
+<!--@elseif($layout_info->menu_bar_color=="y")-->
+<style type="text/css">
+.header .menu { width:980px; height:45px; margin:0 auto; background:{$layout_info->menu_bar_css};
+</style>
+<!--@end-->
+
+<!--@if($layout_info->menu_color=="n")-->
+<!--%import("css/color.css")-->
+<!--@elseif($layout_info->menu_color=="y")-->
+<style type="text/css">
+.header .menu #gnb_menu .gnb_ul>li.active>a { background:{$layout_info->menu_css} !important; color:#FFF; }
+</style>
+<!--@end-->
+
+<!--@if($layout_info->hover_color=="n")-->
+<!--%import("css/color.css")-->
+<!--@elseif($layout_info->hover_color=="y")-->
+<style type="text/css"> 
+.header .menu #gnb_menu .gnb_ul>li>a:hover { background:{$layout_info->hover_css} !important; color:#FFF; }
+</style>
+<!--@end-->
+
+<!--@if($layout_info->search_color=="n")-->
+<!--%import("css/color.css")-->
+<!--@elseif($layout_info->search_color=="y")-->
+<style type="text/css"> 
+.header .logo .search {float:right; height:27px; margin-top:23px; border: 3px solid {$layout_info->search_css}; border-radius: 5px; }
+</style>
+<!--@end-->
+
+<!--@if($layout_info->sub_line_color=="n")-->
+<!--%import("css/color.css")-->
+<!--@elseif($layout_info->sub_line_color=="y")-->
+<style type="text/css"> 
+#xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid {$layout_info->sub_line_css}; }
+</style>
+<!--@end-->

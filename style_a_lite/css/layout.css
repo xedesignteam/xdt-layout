@@ -1,0 +1,108 @@
+/*rnd Corp. XE Design Team, Coded by 범진혁(Beom jin-hyeok), dennis4079f@gmail.com, first release 2012-01-24*/
+body,p,ul,li,h3{ margin:0; padding:0; }
+html{ margin:0; }
+
+body{ background:#f5f6f8; font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+a{ text-decoration:none; color:#404040; }
+
+#doc{width:960px; margin:0 auto; clear:both;}
+#bottom { width:100%; height: 160px; margin-top:10px; background:url(../img/footer.png) repeat 0 0; color:#fff; float:left; }
+
+/* 상단 로그인 */
+.head .login { height:20px; margin-top:22px; float:right; position:relative; right:0; }
+.head .login li { list-style-type:none; float:left; color:#888; margin:0 3px 0 3px; font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 5px 0 10px; border-left:1px solid #ccc; }
+.head .login li:first-child { border:0; }
+.head .login li:hover a { text-decoration:underline; }
+.head .login li.signin a { color:#5B8F0A; }
+.head .login li a { color:#888; }
+
+/* 상단 로고 */
+.head .logo { width:960px; height:70px; margin:0 auto; }
+.head .logo .img { width:200px; height:60px; float:left; margin: 10px 0 0 0;}
+
+/* 상단 메뉴 */
+.head { background:url(../img/bg.png) repeat-x ; }
+.head .menu { width:960px; height:38px; margin:0 auto; background: url(../img/bar.png) no-repeat left;}
+.head .menu #gnb_menu { height:38px; float:left; width: 757px;}
+.head .menu #gnb_menu ul { list-style:none; padding:0; margin:0; }
+.head .menu #gnb_menu .gnb_ul>li { position:relative; float:left; white-space:nowrap; width: 120px; text-align: center; height: 36px; padding-top: 1px; }
+.head .menu #gnb_menu .gnb_ul>li>a { font-size:13px; font-weight:bold; color:#ffffff; padding:0 10px; display:block; height:38px; line-height:37px; background: url(../img/bar2.png) no-repeat right;}
+.head .menu #gnb_menu .gnb_ul>li>a:hover,
+.head .menu #gnb_menu .gnb_ul>li.active>a { color:#B8E0FF; background:url('../img/active.png') repeat-x;}
+.head .menu #gnb_menu .sub { display:none; position:absolute; top:38px; left:50%; min-width:100px; background:url('./../img/blackglass.png'); padding:10px; z-index:10; text-align:center; }
+.head .menu #gnb_menu .sub>li { height:20px; line-height:20px; }
+.head .menu #gnb_menu .sub>li>a { color:#fff; }
+
+/* 상단 검색 */
+.isSearch { position:relative; background:url(../img/search.png) no-repeat; float:right; height:38px;}
+.isSearch .inputText { position:relative; width:129px; height:15px; float:right; border:1px solid #CCC; color:#fff; background-color:#666; border:#666; vertical-align:middle; margin:13px 37px 0 0;font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;}
+.isSearch .submit { margin:11px 5px 0 13px; float:right; vertical-align:middle; width:17px; height:17px;}
+
+/* 메인 페이지 */
+.xdt_page { width:960px; float:left; margin-top:10px; background-color:#fff; border:1px solid #ccc; border-radius:0 0 5px 5px; }
+.xdt_page .page1 { width:940px; margin:10px 10px 10px 10px; float:left; }
+.xdt_page2 { width:960px; float:left; margin-top:10px; background-color:#fff; border:1px solid #ccc; border-radius:5px; }
+.xdt_page2 .xdt_sub { width:210px; margin:0 0 0 0; float:left; padding:10px 10px 0 10px ; font-size:12px; color:#666; }
+.xdt_page2 .xdt_sub li { list-style:none;  margin:0 0 0 0; padding:10px 0 0 0 ; width:200px;}
+.xdt_page2 .xdt_sub li ul { list-style:none;  padding:0; width:200px; overflow:hidden;height:30px;  text-align:left; }
+.xdt_page2 .xdt_sub li ul a { width:200px; height:30px; padding:7px 0 0 5px; margin:0px 0 0 0px; }
+.xdt_page2 .xdt_sub li ul a:hover { color:#2879ff; }
+.xdt_page2 .xdt_sub li ul.active a { color:#333; font-weight:bold;}
+.xdt_page2 .xdt_sub .xdt_sub_top { font-size: 20px; font-weight: bold; padding-bottom:5px; border-bottom: 2px solid #000; }
+.xdt_page2 .xdt_sub .locNav .active a { color:#333; font-weight:bold;}
+.xdt_page2 .page2 { width:720px; margin:10px 10px 10px 0px; float:left; }
+
+/* 배너 */
+#slides { background:url(../img/bgBanner.png) repeat-x 0 0; float:left; width:960px; height:250px; margin-top:10px; padding:0; position:relative; border:1px solid #cccccc ;}
+.slide { width:960px; height:250px; margin:0; }
+.xdt_pagination { margin:0; position:relative; top:-20px; right:5px; float:right; list-style: none; z-index:1000; }
+.xdt_pagination li { float: left; margin: 0 1px; } 
+.xdt_pagination li a { display: block; width: 13px;height: 0; padding-top: 13px; background-image: url(../img/pagination.png); background-position: 0 0; float: left;overflow: hidden; }
+.xdt_pagination li.current a, 
+.xdt_pagination li.current a:hover { background-position: 0 -13px }
+.xdt_pagination li a:hover { background-position: 0 -26px }
+
+
+/* 하단 */
+.footer { width:960px;  margin:0 auto; clear:both;}
+.footer .content { width:265px; float:left; margin:0 0 0 0; }
+.footer .blank {width:690px; float:left; margin:0 0 0 0; }
+.footer .logo { width:200px; float:left; margin:60px 0 0 0;}
+.footer .contact { width: 375px; float:right; margin: 68px -730px 0 0;}
+
+/*clear*/
+.clear { clear:both; }
+
+/* Popup Login */
+.loginWindow{ display:none; position:fixed; left:0; top:0; _position:absolute; width:100%; height:100%; z-index:100;} 
+.loginWindow.open{ display:block;}
+.loginWindow .modalWindow{ display:block; position:fixed; border:0; left:0; top:0; _position:absolute; width:100%; height:100%; background:#000; opacity:.3; filter:alpha(opacity:30);}
+.loginWindow .loginLayer form{ display:none; *zoom:1; margin:0;}
+.loginWindow .loginLayer form:after{ content:""; display:block; clear:both;}
+.loginWindow .loginLayer form legend{ position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden;}
+.loginWindow .loginLayer fieldset{ border:0; margin:0; padding:0;}
+.loginWindow .loginLayer.loginTypeA form.typeA,
+.loginWindow .loginLayer.loginTypeB form.typeB{ display:block; margin-bottom:25px;}
+.loginWindow .loginLayer dl{ margin:0; padding: 30px 40px 0 40px;}
+.loginWindow .loginLayer dt{ font-size:13px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-weight:bold; color:#868d95; margin:0 0 10px 0;}
+.loginWindow .loginLayer dd{ margin:0 0 15px 0;}
+.loginWindow .loginLayer .inputuid{ width:320px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; color:#333;}
+.loginWindow .loginLayer .inputuid:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
+.loginWindow .loginLayer .inputupw{ width:175px; height:40px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; font:20px; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; color:#333;}
+.loginWindow .loginLayer .inputupw:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
+.loginWindow .loginLayer .inputCheck{ margin:0 3px 0 0; width:13px; height:13px; vertical-align:middle;}
+.loginWindow .loginLayer.loginTypeA .inputText{ background-image:url(../img/bgLoginText.gif)undefined; background-repeat:no-repeat; background-position:right top;}
+.loginWindow .loginLayer.loginTypeB .inputText{ background-image:url(../img/bgOpenidText.gif)undefined; background-repeat:no-repeat; background-position:right top; padding:6px 9px 0 35px; width:243px;}
+.loginWindow .loginLayer .keep{ margin:0; float:left; font-size:11px; line-height:normal; white-space:nowrap; margin-left: 40px;}
+.loginWindow .loginLayer .keep label{ color:#555; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+.loginWindow .loginLayer .loginButton,
+.loginWindow .loginLayer .loginButton input{ position:relative; border:0; color:#fff; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-size:12px; font-weight:bold; border-radius:5px; display:inline-block; height:48px; line-height:48px; background-color:#424549; overflow:hidden;}
+.loginWindow .loginLayer .loginButton{ width:130px; float:right; background-position:0 0;}
+.loginWindow .loginLayer .loginButton input{ left:11px; background-position:right 0; padding:0 35px 0 35px; cursor:pointer;}
+.loginWindow .loginLayer .close{ position:absolute; cursor:pointer; border:0; padding:0; top:10px; right:10px; width:27px; height:27px; background:transparent url(../img/close.png) no-repeat center -20px;}
+.loginWindow .loginLayer .help { width:100%; height:43px; background:#F0F0F0;}
+.loginWindow .loginLayer .help li { list-style-type:none; float:left; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:14px 5px 5px 0; padding:0 6px 0 0; }
+.loginWindow .loginLayer .help p { float:left; font-family:'Segoe UI','나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:14px 0 0 0; padding: 0 6px 0 0; color:#404040; }
+.loginWindow .loginLayer .close span{ position:absolute; font-size:0; line-height:0; width:0; height:.; overflow:hidden; visibility:hidden;}
+
+.loginWindow .loginLayer{ position:absolute; width:425px; top:20%; left:50%; border:2px solid #797979; margin:0 0 0 -220px; background:#fff;}

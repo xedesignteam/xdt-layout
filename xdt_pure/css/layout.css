@@ -1,0 +1,92 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0; }
+html{ margin:0; border:0; }
+
+body{ background-color:#ffffff; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+a{ text-decoration:none; color:#404040; }
+
+.header { width:100%; min-width:960px; float:left; height:35px; position:fixed; z-index:10000; }
+.header .gnb { width:100%; 
+                           height:35px;
+                           background-color: #fafafa;
+                           background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+                           background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+                           background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+                           background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+                           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2');                           
+                           background-repeat: repeat-x;
+						   border-top: 1px solid #d4d4d4;
+						   border-bottom: 1px solid #d4d4d4;
+						   position:relative;
+						   left:-2px;
+}
+
+.header .gnb .menu { width:960px; height:35px; margin:0 auto; position:relative; }
+.header .gnb .menu .logo { width:160px; line-height:35px; float:left; text-shadow: 0 -1px 0 #ccc; text-decoration: none !important; } 
+.header .gnb .menu .logo a { font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-size:19px; font-weight:bold; color:#444; }
+.header .gnb .menu .login { float:right; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+
+.header .gnb .menu ul.list { width:650px; height:35px; float:left; }
+.header .gnb .menu li { list-style-type:none; position:relative; float:left; margin-top:10px; padding:0px 2px 0 2px; border-left:1px solid #ccc;}
+.header .gnb .menu li:first-child { border:0; background:transparent; }
+.header .gnb .menu li a { color:#444; padding:7px 10px 11px 10px; border:1px solid transparent; }
+.header .gnb .menu li:hover a { background:#fff; border-top:1px solid #cfcfcf; border-left:1px solid #cfcfcf; border-right:1px solid #cfcfcf; border-bottom:1px solid #e5e5e5; border-radius:5px 5px 0 0; }
+.header .gnb .menu li:hover li a { color:#333; border:0; }
+.header .gnb .menu li ul { position:absolute; display:none; left:2px; top:25px; white-space:nowrap; list-style:none; min-width:150px; border-top:1px solid #e5e5e5; border-bottom:1px solid #d4d4d4; border-left:1px solid #d4d4d4; border-right:1px solid #d4d4d4; border-radius:0 0 5px 5px; padding:5px; }
+.header .gnb .menu li:hover ul { display:block; z-index:9999; background:#fff; }
+.header .gnb .menu li li { border:0; border-radius:0px; margin:0; float:none; font-size:12px; font-weight:normal; text-align:left; line-height:20px; }
+.header .gnb .menu li li a { color:#333; padding:0 0 0 5px; border:0; display:block; height:20px; line-height:20px; }
+.header .gnb .menu li li a:hover { color:#fff; padding:0 0 0 5px; background:#82b8f4; border-radius:0; }
+.header .gnb .menu li li.active a { color:#333; }
+.header iframe { width:210px; height:26px; float:right; margin:8px 0 0 0; }
+
+.line { width:800px; border-bottom:1px solid #efefef; height:1px; margin:0 auto; }
+
+.body { width:960px; margin:0 auto; padding-top:35px; }
+.body .article_1 { width:940px; float:left; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
+.body .article_2 { width:670px; float:left; border-right:1px solid #e5e5e5; padding:0 9px 0 0; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
+.body .aside { width:250px; float:left; padding:0 0 0 10px;}
+.body .aside .ads { width:250px; height:250px; float:left; margin:20px 0 0 0; border:1px solid #CCCCCC; border-radius:5px;}
+.body .aside .widget { width:230px; float:left; margin:10px 0 0 0; padding:0 10px 0 10px; }
+.body .aside .widget p { width:230px; border-bottom:1px solid #ccc; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 0 2px 0; }
+
+
+.footer { width:960px; padding:10px 0 20px 0; margin:0 auto; border-top:1px solid #e5e5e5; }
+.footer .menu { width:580px; float:left; margin:10px 0 0 0; }
+.footer .menu li { list-style-type:none; padding:0 10px 0 10px; float:left; border-left:1px solid #e5e5e5; }
+.footer .menu li:first-child { border:0; }
+.footer .menu li a:hover { text-decoration:underline; }
+.footer .copy { width:380px; float:left; margin:10px 0 30px 0; text-align:right; }
+
+/* Popup Login */
+.loginWindow{ display:none; position:fixed; left:0; top:0; _position:absolute; width:100%; height:100%; z-index:100;} 
+.loginWindow.open{ display:block;}
+.loginWindow .modalWindow{ display:block; position:fixed; border:0; left:0; top:0; _position:absolute; width:100%; height:100%; background:#000; opacity:.3; filter:alpha(opacity:30);}
+.loginWindow .loginLayer form{ display:none; *zoom:1; margin:0;}
+.loginWindow .loginLayer form:after{ content:""; display:block; clear:both;}
+.loginWindow .loginLayer form legend{ position:absolute; width:0; height:0; overflow:hidden; font-size:0; line-height:0; visibility:hidden;}
+.loginWindow .loginLayer fieldset{ border:0; margin:0; padding:0;}
+.loginWindow .loginLayer.loginTypeA form.typeA,
+.loginWindow .loginLayer.loginTypeB form.typeB{ display:block;}
+.loginWindow .loginLayer dl{ margin:0; padding:0 0 1px 0;}
+.loginWindow .loginLayer dt{ font-size:13px; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-weight:bold; color:#868d95; margin:0 0 20px 0;}
+.loginWindow .loginLayer dd{ margin:0 0 15px 0;}
+.loginWindow .loginLayer .inputuid{ width:320px; height:40px; background:url(../img/email.png) #fff no-repeat 0 -2px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-radius:5px; font:20px Tahoma; color:#333;}
+.loginWindow .loginLayer .inputuid:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
+.loginWindow .loginLayer .inputupw{ width:175px; height:40px; background:url(../img/password.png) #fff no-repeat 0 -2px; padding:6px 9px 0 9px; border-top:1px solid #ccc; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-radius:5px; font:20px Tahoma; color:#333;}
+.loginWindow .loginLayer .inputupw:focus{ border:1px solid #94a9ce; border-radius:5px; background:#fff;}
+.loginWindow .loginLayer .inputCheck{ margin:0 3px 0 0; width:13px; height:13px; vertical-align:middle;}
+.loginWindow .loginLayer.loginTypeA .inputText{ background-image:url(../img/bgLoginText.gif)undefined; background-repeat:no-repeat; background-position:right top;}
+.loginWindow .loginLayer.loginTypeB .inputText{ background-image:url(../img/bgOpenidText.gif)undefined; background-repeat:no-repeat; background-position:right top; padding:6px 9px 0 35px; width:243px;}
+.loginWindow .loginLayer .keep{ margin:0; float:left; font-size:11px; line-height:normal; white-space:nowrap;}
+.loginWindow .loginLayer .keep label{ color:#555; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
+.loginWindow .loginLayer .loginButton,
+.loginWindow .loginLayer .loginButton input{ position:relative; border:0; color:#fff; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-size:12px; font-weight:bold; border-radius:5px; display:inline-block; height:48px; line-height:48px; background-color:#5373af; overflow:hidden;}
+.loginWindow .loginLayer .loginButton{ width:130px; float:right; background-position:0 0; right:20px;}
+.loginWindow .loginLayer .loginButton input{ left:11px; background-position:right 0; padding:0 35px 0 35px; cursor:pointer;}
+.loginWindow .loginLayer .close{ position:absolute; cursor:pointer; border:0; padding:0; top:10px; right:10px; width:27px; height:27px; background:transparent url(../img/close.png) no-repeat center -20px;}
+.loginWindow .loginLayer .help { width:100%; height:30px; }
+.loginWindow .loginLayer .help li { list-style-type:none; float:left; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:10px 7px 5px 0; padding:0 6px 0 0; }
+.loginWindow .loginLayer .help p { float:left; font-size:11px; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; margin:10px 0 0 0; color: #404040; font-size: 12px; }
+.loginWindow .loginLayer .close span{ position:absolute; font-size:0; line-height:0; width:0; height:.; overflow:hidden; visibility:hidden;}
+
+.loginWindow .loginLayer{ position:absolute; width:360px; top:20%; left:50%; padding:40px; border:1px solid #ccc; border-radius:5px; margin:0 0 0 -220px; background:#fcfcfc;}

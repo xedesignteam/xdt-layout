@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.2">
+    <title xml:lang="ko">XDT Cool</title>
+    <title xml:lang="en">XDT Cool</title>
+    <description xml:lang="ko">심플한 레이아웃 입니다.</description>
+    <version>1.2.2</version>
+    <date>2014-02-07</date>
+
+    <author email_address="support@xdt.kr" link="http://www.xedesignteam.com">
+        <name xml:lang="ko">범진혁</name>
+		<name xml:lang="en">Beom Jinhyeok</name>
+    </author>
+    <menus>
+		<menu name="main_menu" maxdepth="1" default="true">
+            <title xml:lang="ko">메뉴</title>
+			<title xml:lang="en">Header menu</title>
+        </menu>
+		<menu name="footer_menu" maxdepth="1" default="true">
+            <title xml:lang="ko">하단 메뉴</title>
+			<title xml:lang="en">Footer menu</title>
+        </menu>
+    </menus>
+	<extra_vars>
+	    <group>
+		<title xml:lang="ko">레이아웃 설정</title>
+	    <var name="body_style" type="select">
+			<title xml:lang="ko">본문 스타일</title>
+			<title xml:lang="en">Layout Style</title>
+			<description xml:lang="ko">본문 스타일을 선택하세요.</description>
+			<options value="main">
+				<title xml:lang="ko">메인페이지</title>
+				<title xml:lang="en">Main Page</title>
+				<value>home</value>
+				</options>	
+			<options value="sub">
+				<title xml:lang="ko">서브페이지</title>
+				<title xml:lang="en">Sub Page</title>
+				<value>sub</value>
+			</options>
+		</var>
+		</group>
+		<group>
+		<title xml:lang="ko">로고 설정</title>
+		<var name="header_logo_image" type="image">
+			<title xml:lang="ko">헤더 로고 이미지</title>
+			<title xml:lang="en">Header Logo Image</title>
+			<description xml:lang="ko">헤더에 출력될 로고 이미지입니다. 가로 200px, 세로 67px를 권장합니다.</description>
+		</var>
+		<var name="header_logo_url" type="text">
+			<title xml:lang="ko">헤더 로고 주소</title>
+            <title xml:lang="en">Header Logo Url</title>
+			<description xml:lang="ko">이미지 로고를 클릭하면 이동될 주소입니다.</description>
+		</var>
+		 <var name="footer_copy" type="text">
+			<title xml:lang="ko">푸터 저작권</title>
+			<description xml:lang="ko">하단에 들어갈 홈페이지 저작권을 기입합니다.</description>
+		</var>
+		</group>
+		<group>
+		<title xml:lang="ko">배너 설정</title>
+		<var name="banner_style" type="select">
+            <title xml:lang="ko">베너 출력</title>
+            <description xml:lang="ko">베너 출력 여부를 선택하세요.</description>
+            <options value="y">
+                <title xml:lang="ko">예 출력합니다</title>
+                <value>y</value>
+            </options>
+			<options value="n">
+                <title xml:lang="ko">아니오 출력하지 않습니다</title>
+                <value>n</value>
+            </options>
+        </var>
+		<var name="banner_image_1" type="image">
+			<title xml:lang="ko">베너 이미지 1</title>
+			<description xml:lang="ko">베너 1번 슬라이드에 출력될 이미지 입니다. 최소 1024*600, 1520*600 이미지가 필요하며, 1920*600 크기의 이미지를 권장합니다.</description>
+		</var>
+		<var name="banner_ctext1" type="select">
+            <title xml:lang="ko">배너 텍스트 설정 1</title>
+            <description xml:lang="ko">베너 텍스트 출력 여부를 선택하세요.</description>
+			<options value="n">
+                <title xml:lang="ko">아니오 출력하지 않습니다</title>
+                <value>n</value>
+            </options>
+			<options value="y">
+                <title xml:lang="ko">예 출력합니다</title>
+                <value>y</value>
+            </options>
+        </var>
+		<var name="banner_ttext1" type="text">
+			<title xml:lang="ko">배너 텍스트 제목 1</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 제목을 입력하세요.</description>
+		</var>
+		<var name="banner_text1" type="text">
+			<title xml:lang="ko">베너 텍스트 내용 1</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 내용을 입력하세요.</description>
+		</var>
+		<var name="banner_image_2" type="image">
+			<title xml:lang="ko">베너 이미지 2</title>
+			<description xml:lang="ko">베너 2번 슬라이드에 출력될 이미지 입니다. 최소 1024*600, 1520*600 이미지가 필요하며, 1920*600 크기의 이미지를 권장합니다.</description>
+		</var>
+		<var name="banner_ctext2" type="select">
+            <title xml:lang="ko">배너 텍스트 설정 2</title>
+            <description xml:lang="ko">베너 텍스트 출력 여부를 선택하세요.</description>
+			<options value="n">
+                <title xml:lang="ko">아니오 출력하지 않습니다</title>
+                <value>n</value>
+            </options>
+			<options value="y">
+                <title xml:lang="ko">예 출력합니다</title>
+                <value>y</value>
+            </options>
+        </var>
+		<var name="banner_ttext2" type="text">
+			<title xml:lang="ko">배너 텍스트 제목 2</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 제목을 입력하세요.</description>
+		</var>
+		<var name="banner_text2" type="text">
+			<title xml:lang="ko">베너 텍스트 내용 2</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 내용을 입력하세요.</description>
+        </var>
+        <var name="banner_image_3" type="image">
+			<title xml:lang="ko">베너 이미지 3</title>
+			<description xml:lang="ko">베너 3번 슬라이드에 출력될 이미지 입니다. 최소 1024*600, 1520*600 이미지가 필요하며, 1920*600 크기의 이미지를 권장합니다.</description>
+		</var>
+		<var name="banner_ctext3" type="select">
+            <title xml:lang="ko">배너 텍스트 설정 3</title>
+            <description xml:lang="ko">베너 텍스트 출력 여부를 선택하세요.</description>
+			<options value="n">
+                <title xml:lang="ko">아니오 출력하지 않습니다</title>
+                <value>n</value>
+            </options>
+			<options value="y">
+                <title xml:lang="ko">예 출력합니다</title>
+                <value>y</value>
+            </options>
+        </var>
+		<var name="banner_ttext3" type="text">
+			<title xml:lang="ko">배너 텍스트 제목 3</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 제목을 입력하세요.</description>
+		</var>
+		<var name="banner_text3" type="text">
+			<title xml:lang="ko">베너 텍스트 내용 3</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 내용을 입력하세요.</description>
+		</var>	
+        <var name="banner_image_4" type="image">
+			<title xml:lang="ko">베너 이미지 4</title>
+			<description xml:lang="ko">베너 4번 슬라이드에 출력될 이미지 입니다. 최소 1024*600, 1520*600 이미지가 필요하며, 1920*600 크기의 이미지를 권장합니다.</description>
+		</var>
+		<var name="banner_ctext4" type="select">
+            <title xml:lang="ko">배너 텍스트 설정 4</title>
+            <description xml:lang="ko">베너 텍스트 출력 여부를 선택하세요.</description>
+			<options value="n">
+                <title xml:lang="ko">아니오 출력하지 않습니다</title>
+                <value>n</value>
+            </options>
+			<options value="y">
+                <title xml:lang="ko">예 출력합니다</title>
+                <value>y</value>
+            </options>
+        </var>
+		<var name="banner_ttext4" type="text">
+			<title xml:lang="ko">배너 텍스트 제목 4</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 제목을 입력하세요.</description>
+		</var>
+		<var name="banner_text4" type="text">
+			<title xml:lang="ko">베너 텍스트 내용 4</title>
+			<description xml:lang="ko">배너 텍스트에 출력할 내용을 입력하세요.</description>
+		</var>
+		</group>
+	</extra_vars>
+</layout>

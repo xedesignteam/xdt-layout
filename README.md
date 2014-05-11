@@ -1,4 +1,4 @@
-Dorami-Layout
+XDT-Layout
 =============
 
-Dorami Layout
+XE Design Team Layout

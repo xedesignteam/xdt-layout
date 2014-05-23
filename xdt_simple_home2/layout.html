@@ -29,6 +29,7 @@
 				<li><a href="{getUrl('act','dispMemberSignUpForm')}">Sign Up</a></li>
 				<li><a href="#" onclick="jQuery('#loginWindow').css('display','block');" accesskey="L">Sign In</a></li>
 			<!--@else-->
+				<li cond="$grant->manager"><a href="{getUrl('','module','admin')}">Admin</a></li>
 				<li><a href="{getUrl('act','dispMemberInfo')}">Member Info</a></li>
 				<li><a href="{getUrl('act','dispMemberLogout')}">Sign Out</a></li>
 			<!--@end-->

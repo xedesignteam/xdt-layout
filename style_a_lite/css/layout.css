@@ -1,31 +1,109 @@
-/*rnd Corp. XE Design Team, Coded by 범진혁(Beom jin-hyeok), dennis4079f@gmail.com, first release 2012-01-24*/
-body,p,ul,li,h3{ margin:0; padding:0; }
-html{ margin:0; }
-
-body{ background:#f5f6f8; font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
-a{ text-decoration:none; color:#404040; }
-
-#doc{width:960px; margin:0 auto; clear:both;}
-#bottom { width:100%; height: 160px; margin-top:10px; background:url(../img/footer.png) repeat 0 0; color:#fff; float:left; }
-
+/**
+ *rnd Corp. XE Design Team
+ *Coded by 범진혁(Beom Jinhyeok)
+ *Copyright © 범진혁(Beom Jinhyeok)
+ *dennis4079f@gmail.com
+ *first release 2012-01-24
+ */
+body,p,ul,li,h3{
+	margin:0; padding:0;
+}
+html{
+	margin:0;
+}
+body{
+	background:#f5f6f8;
+	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+}
+a,p,ul,li,h3{
+	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+}
+a{
+	text-decoration:none;
+	color:#404040;
+}
+#doc{
+	width:960px;
+	margin:0 auto;
+	clear:both;
+}
+#bottom{
+	width:100%;
+	height: 160px;
+	margin-top:10px;
+	background:url(../img/footer.png) repeat 0 0;
+	color:#fff;
+	float:left;
+}
 /* 상단 로그인 */
-.head .login { height:20px; margin-top:22px; float:right; position:relative; right:0; }
-.head .login li { list-style-type:none; float:left; color:#888; margin:0 3px 0 3px; font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 5px 0 10px; border-left:1px solid #ccc; }
-.head .login li:first-child { border:0; }
-.head .login li:hover a { text-decoration:underline; }
-.head .login li.signin a { color:#5B8F0A; }
-.head .login li a { color:#888; }
-
+.head .login{
+	height:20px;
+	margin-top:22px;
+	float:right;
+	position:relative;
+	right:0;
+}
+.head .login li{
+	list-style-type:none;
+	float:left;
+	color:#888;
+	margin:0 3px 0 3px;
+	padding:0 5px 0 10px;
+	border-left:1px solid #ccc;
+}
+.head .login li:first-child{
+	border:0;
+}
+.head .login li:hover a{
+	text-decoration:underline;
+}
+.head .login li.signin a{
+	color:#5B8F0A;
+}
+.head .login li a{
+	color:#888;
+}
 /* 상단 로고 */
-.head .logo { width:960px; height:70px; margin:0 auto; }
-.head .logo .img { width:200px; height:60px; float:left; margin: 10px 0 0 0;}
-
+.head .logo{
+	width:960px;
+	height:70px;
+	margin:0 auto;
+}
+.head .logo .img{
+	width:200px;
+	height:60px;
+	float:left;
+	margin: 10px 0 0 0;
+}
 /* 상단 메뉴 */
-.head { background:url(../img/bg.png) repeat-x ; }
-.head .menu { width:960px; height:38px; margin:0 auto; background: url(../img/bar.png) no-repeat left;}
-.head .menu #gnb_menu { height:38px; float:left; width: 757px;}
-.head .menu #gnb_menu ul { list-style:none; padding:0; margin:0; }
-.head .menu #gnb_menu .gnb_ul>li { position:relative; float:left; white-space:nowrap; width: 120px; text-align: center; height: 36px; padding-top: 1px; }
+.head{
+	background:url(../img/bg.png) repeat-x;
+}
+.head .menu{
+	width:960px;
+	height:38px;
+	margin:0 auto;
+	background:url(../img/bar.png) no-repeat left;
+}
+.head .menu #gnb_menu{
+	height:38px;
+	float:left;
+	width: 757px;
+}
+.head .menu #gnb_menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.head .menu #gnb_menu .gnb_ul>li{
+	position:relative;
+	float:left;
+	white-space:nowrap;
+	width: 120px;
+	text-align:center;
+	height:36px;
+	padding-top:1px;
+}
 .head .menu #gnb_menu .gnb_ul>li>a { font-size:13px; font-weight:bold; color:#ffffff; padding:0 10px; display:block; height:38px; line-height:37px; background: url(../img/bar2.png) no-repeat right;}
 .head .menu #gnb_menu .gnb_ul>li>a:hover,
 .head .menu #gnb_menu .gnb_ul>li.active>a { color:#B8E0FF; background:url('../img/active.png') repeat-x;}

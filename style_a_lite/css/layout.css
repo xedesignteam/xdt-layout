@@ -13,10 +13,10 @@ html{
 }
 body{
 	background:#f5f6f8;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 }
 a,p,ul,li,h3{
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 }
 a{
 	text-decoration:none;
@@ -155,7 +155,7 @@ a{
 	border:#666;
 	vertical-align:middle;
 	margin:13px 37px 0 0;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 }
 .xdt_search .submit{
 	margin:11px 5px 0 13px;
@@ -381,7 +381,7 @@ a{
 }
 .loginWindow .loginLayer dt{
 	font-size:13px;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	font-weight:bold;
 	color:#868d95;
 	margin:0 0 10px 0;
@@ -398,7 +398,7 @@ a{
 	border-right:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 	font:20px;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	color:#333;
 }
 .loginWindow .loginLayer .inputuid:focus{
@@ -415,7 +415,7 @@ a{
 	border-right:1px solid #ddd;
 	border-bottom:1px solid #ddd;
 	font:20px;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	color:#333;
 }
 .loginWindow .loginLayer .inputupw:focus{
@@ -451,14 +451,14 @@ a{
 }
 .loginWindow .loginLayer .keep label{
 	color:#555;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 }
 .loginWindow .loginLayer .loginButton,
 .loginWindow .loginLayer .loginButton input{
 	position:relative;
 	border:0;
 	color:#fff;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	font-size:12px;
 	font-weight:bold;
 	border-radius:5px;
@@ -498,13 +498,13 @@ a{
 .loginWindow .loginLayer .help li {
 	list-style-type:none;
 	float:left;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	margin:14px 5px 5px 0;
 	padding:0 6px 0 0;
 }
 .loginWindow .loginLayer .help p{
 	float:left;
-	font-family:'나눔고딕',NanumGothic,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif;
+	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 	margin:14px 0 0 0;
 	padding:0 6px 0 0;
 	color:#404040;

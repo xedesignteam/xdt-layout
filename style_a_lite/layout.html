@@ -27,26 +27,25 @@
 				<img src="img/nologo.png" alt="logo here" class="iePngFix" /></a>
 			<!--@end-->
 		</div>
+		<!--@if($layout_info->top=="yes")-->
 	    <div class="topmenu" align="right">
-		<!--@if($layout_info->top=="no")-->
-		</div>
-		<!--@else-->
-		<!-- mini login -->
-		<div class="login">
-		<!--@if(!$is_logged)-->
-		<ol>
-			<li>방문자님, 환영합니다!</li>
-			<li><a href="{getUrl('act','dispMemberSignUpForm')}">회원가입</a></li>
-			<li class="signin"><a href="#" onclick="jQuery('#loginWindow').css('display','block');" accesskey="L">로그인</a></li>
-		</ol>
-	    <!--@else-->
-	    <ol>
-			<li>{$logged_info->nick_name}님, 환영합니다!</li>
-			<li cond="$grant->manager"><a href="{getUrl('','module','admin')}">관리</a></li>
-			<li><a href="{getUrl('act','dispMemberInfo')}">회원정보</a></li>
-			<li class="signin"><a href="{getUrl('act','dispMemberLogout')}">로그아웃</a></li>
-		</ol>
-		<!--@end-->
+			<!-- mini login -->
+			<div class="login">
+			<!--@if(!$is_logged)-->
+			<ol>
+				<li>방문자님, 환영합니다!</li>
+				<li><a href="{getUrl('act','dispMemberSignUpForm')}">회원가입</a></li>
+				<li class="signin"><a href="#" onclick="jQuery('#loginWindow').css('display','block');" accesskey="L">로그인</a></li>
+			</ol>
+			<!--@else-->
+			<ol>
+				<li>{$logged_info->nick_name}님, 환영합니다!</li>
+				<li cond="$grant->manager"><a href="{getUrl('','module','admin')}">관리</a></li>
+				<li><a href="{getUrl('act','dispMemberInfo')}">회원정보</a></li>
+				<li class="signin"><a href="{getUrl('act','dispMemberLogout')}">로그아웃</a></li>
+			</ol>
+			<!--@end-->
+			</div>
 		</div>
 		<!--@end-->
 	</div>

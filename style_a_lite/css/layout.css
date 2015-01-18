@@ -70,10 +70,10 @@ a{
 	margin:0 auto;
 }
 .xdt_header .logo .img{
-	width:200px;
+	width:260px;
 	height:60px;
 	float:left;
-	margin: 10px 0 0 0;
+	margin:5px 0 5px 0;
 }
 /* 상단 메뉴 */
 .xdt_header{
@@ -142,11 +142,12 @@ a{
 	position:relative;
 	background:url(../img/search.png) no-repeat;
 	float:right;
+	width:201px;
 	height:38px;
 }
 .xdt_search .inputText{
 	position:relative;
-	width:129px;
+	width:126px;
 	height:15px;
 	float:right;
 	border:1px solid #CCC;
@@ -155,11 +156,10 @@ a{
 	border:#666;
 	vertical-align:middle;
 	margin:13px 37px 0 0;
-	font-family:'나눔고딕','NanumGothic','맑은고딕','Malgun Gothic','Apple SD Gothic Neo','Apple Gothic','돋움',dotum,Tahoma,Verdana,Arial,Geneva,Helvetica,sans-serif;
 }
 .xdt_search .submit{
 	margin:11px 5px 0 13px;
-	float:right;
+	float:left;
 	vertical-align:middle;
 	width:17px;
 	height:17px;

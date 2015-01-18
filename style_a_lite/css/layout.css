@@ -2,7 +2,7 @@
  *rnd Corp. XE Design Team
  *Coded by 범진혁(Beom Jinhyeok)
  *Copyright © 범진혁(Beom Jinhyeok)
- *dennis4079f@gmail.com
+ *dennis4079@gmail.com
  *first release 2012-01-24
  */
 body,p,ul,li,h3{
@@ -23,7 +23,7 @@ a{
 	color:#404040;
 }
 #xdt_doc{
-	width:960px;
+	width:962px;
 	margin:0 auto;
 	clear:both;
 }
@@ -80,7 +80,7 @@ a{
 	background:url(../img/bg.png) repeat-x;
 }
 .xdt_header .xdt_menu{
-	width:960px;
+	width:962px;
 	height:38px;
 	margin:0 auto;
 	background:url(../img/bar.png) no-repeat left;

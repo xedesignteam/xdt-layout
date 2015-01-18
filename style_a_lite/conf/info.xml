@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout version="0.2">
-	<title xml:lang="ko">XDT Style A Lite</title>
+	<title xml:lang="ko">XE Design Team - Style A Lite</title>
 	<description xml:lang="ko">	
 	XE Design Team 에서 제공하는 첫번째 레이아웃으로도 깔끔한 디자인의 레이아웃 스킨입니다.
 	</description>
-	<version>2.1.3</version>
-	<date>2013-11-02</date>
+	<version>2.1.4</version>
+	<date>2015-01-18</date>
 	<author email_address="support@xdt.kr" link="http://www.xedesignteam.com">
 		<name xml:lang="ko">범진혁</name>
 		<name xml:lang="en">Beom Jinhyeok</name>

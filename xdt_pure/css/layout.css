@@ -5,19 +5,20 @@ body{ background-color:#ffffff; font-family:'나눔고딕',NanumGothic,ng,Malgun
 a{ text-decoration:none; color:#404040; }
 
 .header { width:100%; min-width:960px; float:left; height:35px; position:fixed; z-index:10000; }
-.header .gnb { width:100%; 
-                           height:35px;
-                           background-color: #fafafa;
-                           background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
-                           background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
-                           background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
-                           background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
-                           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2');                           
-                           background-repeat: repeat-x;
-						   border-top: 1px solid #d4d4d4;
-						   border-bottom: 1px solid #d4d4d4;
-						   position:relative;
-						   left:-2px;
+.header .gnb {
+	width:100%; 
+	height:35px;
+	background-color: #fafafa;
+	background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+	background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+	background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f2f2f2');                           
+	background-repeat: repeat-x;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	position:relative;
+	left:-2px;
 }
 
 .header .gnb .menu { width:960px; height:35px; margin:0 auto; position:relative; }
@@ -50,7 +51,7 @@ a{ text-decoration:none; color:#404040; }
 .body .aside .widget p { width:230px; border-bottom:1px solid #ccc; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 0 2px 0; }
 
 
-.footer { width:960px; padding:10px 0 20px 0; margin:0 auto; border-top:1px solid #e5e5e5; }
+.footer { width:960px; padding:10px 0 20px 0; margin:0 auto; }
 .footer .menu { width:580px; float:left; margin:10px 0 0 0; }
 .footer .menu li { list-style-type:none; padding:0 10px 0 10px; float:left; border-left:1px solid #e5e5e5; }
 .footer .menu li:first-child { border:0; }

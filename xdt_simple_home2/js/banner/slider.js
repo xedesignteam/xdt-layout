@@ -10,6 +10,13 @@
  *
 
 // ========================================================= */
+/*
+ * Released under the license
+ * @author Beom Jinhyeok
+ * License For Non-Commercial User: CC BY-NC-SA 4.0
+ * License For Commercial User: XE Design Team Commercial License.
+ * XE Design Team Commercial License Info: http://www.xedesignteam.com/license
+ */
 (function($){
     $.xdtslider = function(container,options){
         // settings
@@ -59,7 +66,7 @@
 		}
 		
 		//if (touch)
-		$.xdtslider.enableTouch(element,slides, config);
+		//$.xdtslider.enableTouch(element,slides, config);
 	   
 	    $.xdtslider.createNav(element,slides, config);
 	    slides.eq(targetSlide).show();
@@ -234,7 +241,7 @@
 			}), config.delay);
 	  }
   };
-  
+  /*
   $.xdtslider.enableTouch=function(element,slides,config){
 	  element[0].addEventListener('touchstart', onTouchStart, false);
 	   var startX;
@@ -267,6 +274,7 @@
 	    		 element[0].removeEventListener('touchend', onTouchEnd, false);
     	 }	
   }
+  */
   
   $.xdtslider.removeIEFilter=function(elm){
 	  if(elm.style.removeAttribute){

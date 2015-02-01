@@ -1,19 +1,20 @@
 <!--%import("css/layout.css")--> 
 <!--%import("js/layout.js")-->
 <!--@if($layout_info->banner_style=="y")-->
-<!--%import("js/banner.js")-->
-<!--%import("js/slider_touch.js")-->
-<!--%import("css/slider.css")-->
-{@
-	$browserAgent = getenv('HTTP_USER_AGENT');
-	preg_match('/MSIE [0-8]/',$browserAgent, $browserData);
-}
-<!--@if($browserData)-->
-	{@ $browserVersion = (int) str_replace("MSIE ","",$browserData[0])}
-	<!--@if($browserVersion<9)-->
-		<!--%import("js/slider.js")-->
+	<!--%import("js/banner.js")-->
+	<!--%import("css/banner/slider.css")-->
+	{@
+		$browserAgent = getenv('HTTP_USER_AGENT');
+		preg_match('/MSIE [0-8]/',$browserAgent, $browserData);
+	}
+	<!--@if($browserData)-->
+		{@ $browserVersion = (int) str_replace("MSIE ","",$browserData[0])}
+		<!--@if($browserVersion<9)-->
+			<!--%import("js/banner/slider.js")-->
+		<!--@else-->
+			<!--%import("js/banner/slider_touch.js")-->
+		<!--@end-->
 	<!--@end-->
-<!--@end-->
 <!--@end-->
 {@
 	Context::set("admin_bar","false");

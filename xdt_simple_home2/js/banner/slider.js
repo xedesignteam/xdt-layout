@@ -10,13 +10,7 @@
  *
 
 // ========================================================= */
-/*
- * Released under the license
- * @author Beom Jinhyeok
- * License For Non-Commercial User: CC BY-NC-SA 4.0
- * License For Commercial User: XE Design Team Commercial License.
- * XE Design Team Commercial License Info: http://www.xedesignteam.com/license
- */
+
 (function($){
     $.xdtslider = function(container,options){
         // settings

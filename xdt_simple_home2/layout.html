@@ -2,6 +2,7 @@
 <!--%import("js/layout.js")-->
 <!--@if($layout_info->banner_style=="y")-->
 	<!--%import("js/banner.js")-->
+	<!--%import("js/banner/slider_touch.js")-->
 	<!--%import("css/banner/slider.css")-->
 	{@
 		$browserAgent = getenv('HTTP_USER_AGENT');
@@ -10,9 +11,7 @@
 	<!--@if($browserData)-->
 		{@ $browserVersion = (int) str_replace("MSIE ","",$browserData[0])}
 		<!--@if($browserVersion<9)-->
-			<!--%import("js/banner/slider.js")-->
-		<!--@else-->
-			<!--%import("js/banner/slider_touch.js")-->
+			<!--%import("js/banner/slider.js")-->			
 		<!--@end-->
 	<!--@end-->
 <!--@end-->

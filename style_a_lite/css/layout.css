@@ -290,15 +290,15 @@ a{
 .xdt_footer .content{
 	width:960px;
 	float:left;
-	margin-top:60px;
 }
 .xdt_footer .logo{
 	width:200px;
 	float:left;
+	margin-top:65px;
 }
 .xdt_footer .contact{
 	float:right;
-	margin-top:10px;
+	margin-top:75px;
 }
 /* clear */
 .clear {

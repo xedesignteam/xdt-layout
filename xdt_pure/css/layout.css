@@ -46,7 +46,7 @@ a{ text-decoration:none; color:#404040; }
 .body .article_1 { width:940px; float:left; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
 .body .article_2 { width:670px; float:left; border-right:1px solid #e5e5e5; padding:0 9px 0 0; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
 .body .aside { width:250px; float:left; padding:0 0 0 10px;}
-.body .aside .ads { width:250px; height:250px; float:left; margin:20px 0 0 0; border:1px solid #CCCCCC; border-radius:5px;}
+.body .aside .ads { width:250px; height:250px; float:left; margin:20px 0 0 0; }
 .body .aside .widget { width:230px; float:left; margin:10px 0 0 0; padding:0 10px 0 10px; }
 .body .aside .widget p { width:230px; border-bottom:1px solid #ccc; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 0 2px 0; }
 

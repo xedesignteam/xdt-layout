@@ -22,11 +22,11 @@ a{ text-decoration:none; color:#404040; }
 }
 
 .header .gnb .menu { width:960px; height:35px; margin:0 auto; position:relative; }
-.header .gnb .menu .logo { width:160px; line-height:35px; float:left; text-shadow: 0 -1px 0 #ccc; text-decoration: none !important; } 
+.header .gnb .menu .logo { line-height:35px; float:left; text-shadow: 0 -1px 0 #ccc; text-decoration: none !important; } 
 .header .gnb .menu .logo a { font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; font-size:19px; font-weight:bold; color:#444; }
 .header .gnb .menu .login { float:right; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; }
 
-.header .gnb .menu ul.list { width:650px; height:35px; float:left; }
+.header .gnb .menu ul.list { min-width:350px; height:35px; float:left; }
 .header .gnb .menu li { list-style-type:none; position:relative; float:left; margin-top:10px; padding:0px 2px 0 2px; border-left:1px solid #ccc;}
 .header .gnb .menu li:first-child { border:0; background:transparent; }
 .header .gnb .menu li a { color:#444; padding:7px 10px 11px 10px; border:1px solid transparent; }
@@ -40,13 +40,55 @@ a{ text-decoration:none; color:#404040; }
 .header .gnb .menu li li.active a { color:#333; }
 .header iframe { width:210px; height:26px; float:right; margin:8px 0 0 0; }
 
+/*search*/
+.header .gnb .menu .xdt_search {
+	width:160px;
+	height:23px;
+	border:1px solid #dedede;
+	border-radius:5px;
+	background:#fff;
+	float:right;
+	margin:6px 5px;
+	z-index:10;
+}
+.header .gnb .menu .xdt_search .isSearch {
+	position:relative;
+	float:left;
+	height:23px;
+	border-radius:5px;
+}
+.header .gnb .menu .xdt_search .isSearch .inputText {
+	position:relative;
+	width:120px;
+	height:15px;
+	float:left;
+	color:#ccc;
+	outline:0 none;
+	border:0;
+	vertical-align:middle;
+	margin:0;
+	padding:4px 8px;
+	border-radius:5px;
+}
+.header .gnb .menu .xdt_search .isSearch .inputText:focus {
+	color:#333;
+}
+.header .gnb .menu .xdt_search .isSearch .submit {
+	margin:0;
+	float:right;
+	vertical-align:middle;
+	width:23px;
+	height:23px;
+	border-radius:5px;
+}
+
 .line { width:800px; border-bottom:1px solid #efefef; height:1px; margin:0 auto; }
 
 .body { width:960px; margin:0 auto; padding-top:35px; }
 .body .article_1 { width:940px; float:left; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
 .body .article_2 { width:670px; float:left; border-right:1px solid #e5e5e5; padding:0 9px 0 0; border:1px solid #CCCCCC; border-radius:5px; margin:20px 0 0 0; padding: 10px 10px 10px 10px;}
 .body .aside { width:250px; float:left; padding:0 0 0 10px;}
-.body .aside .ads { width:250px; height:250px; float:left; margin:20px 0 0 0; }
+.body .aside .ads { width:250px; height:250px; float:left; margin:20px 0 0 0; border:1px solid #CCCCCC; border-radius:5px;}
 .body .aside .widget { width:230px; float:left; margin:10px 0 0 0; padding:0 10px 0 10px; }
 .body .aside .widget p { width:230px; border-bottom:1px solid #ccc; font-family:'나눔고딕',NanumGothic,ng,Malgun Gothic,AppleSDGothicNeo,Apple Gothic,dotum,Tahoma,Geneva,Helvetica,sans-serif; padding:0 0 2px 0; }
 

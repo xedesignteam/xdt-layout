@@ -28,19 +28,31 @@
 					{@ $idx++}
 				</li>
 			</ul>
-				<div class="login">
-		        <!--@if(!$is_logged)-->
+			<div class="login">
+				<!--@if(!$is_logged)-->
 				<ol>
-			    <li><a href="{getUrl('act','dispMemberSignUpForm')}">회원가입</a></li>
-			    <li class="signin"><a href="#" onclick="jQuery('#loginWindow').css('display','block');" accesskey="L">로그인</a></li>
+					<li><a href="{getUrl('act','dispMemberSignUpForm')}">회원가입</a></li>
+					<li class="signin"><a href="#" onclick="jQuery('#loginWindow').css('display','block');" accesskey="L">로그인</a></li>
 				</ol>
-	         	<!--@else-->
+				<!--@else-->
 				<ol>
-			    <li><a href="{getUrl('act','dispMemberInfo')}">회원정보</a></li>
-				<li class="signin"><a href="{getUrl('act','dispMemberLogout')}">로그아웃</a></li>
+					<li><a href="{getUrl('act','dispMemberInfo')}">회원정보</a></li>
+					<li class="signin"><a href="{getUrl('act','dispMemberLogout')}">로그아웃</a></li>
 				</ol>
-			    <!--@end-->
-		        </div>
+				<!--@end-->
+			</div>
+			<div class="xdt_search">
+				<form action="{getUrl()}" method="post" class="isSearch">
+					<!--@if($vid)-->
+						<input type="hidden" name="vid" value="{$vid}" />
+					<!--@end-->
+					<input type="hidden" name="mid" value="{$mid}" />
+					<input type="hidden" name="act" value="IS" />
+					<input type="hidden" name="search_target" value="title_content" />
+					<input name="is_keyword" type="text" id="search_input" class="inputText" title="Search..." value="Search..." onblur="if (this.value.length==0) {this.value='Search...'}" onfocus="if(this.value==this.title)this.value='';return false;" />
+					<input type="image" src="img/search.png" alt="{$lang->cmd_search}" class="submit subButton" />
+					</form>
+			</div>
 		</div>
 	</div>
 </div>

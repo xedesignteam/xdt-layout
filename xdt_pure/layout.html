@@ -37,6 +37,7 @@
 				<!--@else-->
 				<ol>
 					<li><a href="{getUrl('act','dispMemberInfo')}">회원정보</a></li>
+					<li cond="$grant->manager"><a href="{getUrl('','module','admin')}" target="_blank">관리</a></li>
 					<li class="signin"><a href="{getUrl('act','dispMemberLogout')}">로그아웃</a></li>
 				</ol>
 				<!--@end-->
